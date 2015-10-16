@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html>
+
+  <head>
+    <title>ds1d</title>
+    <meta charset='UTF-8'>
+
+    <script>
+      window.onload = function(event)
+      {
+        alert('Start set-up');
+        var h=document.getElementById('heading');
+        alert('The <h1> is '+h);
+        if (!h.style) h.style={};
+        h.style.backgroundColor = 'red';
+        alert('Ended set-up');
+      }
+    </script>
+  </head>
+
+  <body>
+
+    <h1 id=heading>Dynasite - a first dynamic site</h1>
+
+    <p>
+      a first paragraph
+    </p>
+
+    <p>
+      a second paragraph
+    </p>
+
+    <script> alert('At the end of the <body>');</script>
+
+  </body>
+
+</html>

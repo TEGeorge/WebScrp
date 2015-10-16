@@ -1,0 +1,11 @@
+{
+  "transport": "sftp",
+  "hostname": "146.148.22.34",
+  "port": 21,
+  "username": "up719079",
+  "password": "27june15",
+  "target": "/home/up719079/web/dyna3",
+  "ignore": [
+    ".git/**"
+  ]
+}
